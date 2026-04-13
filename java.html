@@ -6,7 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
+    <script type=""text/babel">
+    function welcome(props){
+        return <h2>hello{props.name}</h2>
+    }
+    function App(){
+        return{
+            <div>
+                <welcome name="rahul"/>
+                <welcome name="anita"/>
+                <welcome name="rohan"/>
+                </div>
+        };
+    }
         // document.getElementById("demo").innerHTML="welcome to java";
 
         // console.log("Welcome to Java Script");
@@ -77,6 +89,7 @@
 
         // const add= (a,b)=>a+b;
         // console.log(add(5,3));
+
 
 
         
