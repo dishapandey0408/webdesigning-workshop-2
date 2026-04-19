@@ -27,7 +27,7 @@ function calculateResult(){
     grade = "F";
   }
 
-  document.getElementById("result").innerText =
+  document.getElementById("result").innerHTML =
     "Total Marks: " + total +
     "<br>Average: " + average.toFixed(2) +
     "<br>Grade: " + grade;
